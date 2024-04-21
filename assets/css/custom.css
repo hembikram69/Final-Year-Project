@@ -1,0 +1,315 @@
+.hero-heading .auth-logo .top-logo {
+    height: 92px;
+}
+
+.hero-body .auth-content {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.login-wrapper{
+    position:relative;
+    align-items:center;
+}
+.login-wrapper .hero-body{
+    justify-content:center;
+}
+.login-wrapper:after{
+    content: '';
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:10px;
+    height:15px;
+    background:#fc6501;
+    z-index:999;
+}
+
+.login-wrapper:before{
+    content: '';
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    height:10px;
+    background:#00339c;
+    z-index:999;
+}
+
+.brand_site{
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 15px;
+}
+.footer-light-medium-demo{
+    /* margin-top: 270px; */
+    padding-top: 0 !important;
+}
+
+.footer-light-medium-demo .footer-body .small-footer-logo {
+    height: 64px;
+}
+.d_card_item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+.d_card_item li{
+    width: calc(20% - 16px);
+    background: #ffffffed;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+    font-size: 15px;
+}
+.d_card_item li p:first-child{
+    color: #2c2ce5;
+    border-radius: 50%;
+    background: #e9deff6b;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto 12px auto;
+}
+
+
+
+
+.d_icon a{
+    border: 1px solid #8c8cf9;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 28px;
+    font-size: 14px;
+    color: #6a6afb;
+}
+
+.d_icon a:hover{
+    background: #6a6afb;
+    color: #fff;
+}
+.dt_menu{
+    position: relative;
+}
+.dt_menu ul {
+    position: absolute;
+    width: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    top: 60px;
+    z-index: 99;
+    padding: 15px 15px 15px 30px;
+    box-shadow: 0 4px 17px -3px rgb(0 0 0 / 20%);    
+    font-size: 14px;
+    border: 0;
+    border-radius: 3px;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.dt_menu ul li{    
+    border-bottom: 1px solid #ddd;    
+}
+.dt_menu ul li a{
+    padding: 8px 16px;
+    color: #8c8cf9 !important;
+    display: inline-block;
+    width: 100%;
+}
+
+.dt_menu ul li:hover a{
+    background: #a3a3df !important;
+    color:#fff !important;
+}
+
+.dt_menu ul:before {
+    position: absolute;
+    top: -12px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 12px solid #d8d8d8;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    font-size: 0;
+    line-height: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dt_menu ul:after {
+    position: absolute;
+    top: -11px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 12px solid #fff;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    font-size: 0;
+    line-height: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dt_menu:hover ul{
+    display: block;
+}
+
+nav.is-static.is-active{
+    position: fixed;
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 20%);
+}
+
+nav.is-static.is-active .navbar-item, nav.is-static.is-active .navbar-link{
+    color: #000 !important;
+}
+nav.is-static.is-active .icon-box-toggle span i {
+    background: #000 !important;
+}
+nav.is-static.is-active .navbar-link::after{
+    border-color:#000 !important;
+}
+.navbar-start .navbar-item.is-slide{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+
+
+.client_brand{
+    
+    background: #ffffffe0;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 20%);
+    text-align: center;
+}
+.client_brand h2{
+    margin-bottom:12px;
+}
+.client_brand h2 span{
+        font-size: 27px;
+    font-weight: 600;
+    /*text-transform: uppercase;*/
+    color: #6f6ff8;
+}
+
+.client_brand p{
+    margin-bottom:10px;
+    font-size:16px;
+    color:#000;
+}
+.client_brand p i{
+    opacity: .7;
+    color: #717171;
+}
+
+.modal.is-active .modal-background {
+    background-position: 0% 0%;
+    background-color: #4d4b4b80 !important;
+    background-image: none !important;
+    background-repeat: repeat !important;
+    background-attachment: scroll !important;
+}
+
+.absolute-header{
+    -webkit-transform: translateY(0) !important; 
+    transform: translateY(0) !important;
+}
+
+.hero .navbar {
+    background: none;
+    border-radius: 0;
+}
+.is-active .navigation-close{
+    opacity:1 !important;
+}
+
+ 
+.chosen-container{
+    display:none !important;
+}
+ .app_form select.form-control{
+     display:block !important;
+     color:#000 !important;
+ }
+ .app_form .input-group{
+     width:100% !important;
+ }
+.c_box{
+    width:100% !important;
+}
+.profile_pic{
+    margin-left: 8px;
+    height: 40px;
+    width: 40px;
+    max-height: initial !important;
+}
+
+.p_pic span{
+    text-transform: capitalize;
+}
+.navbar-link.p_pic:after{display:none;}
+
+
+
+
+
+ .tost {
+            position: absolute;
+            bottom: -100px;
+            right: 50px;
+            z-index: 0;
+            padding: 16px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 5px;
+            align-items: center;
+            min-width: 260px;
+            display: none;
+            transition: .3s ease-in-out;
+        }
+
+            .tost.danger {
+                background: red;
+            }
+
+            .tost.success {
+                background: green;
+            }
+
+            .tost p {
+                margin-bottom: 0;
+                margin-right: 20px;
+            }
+
+            .tost.show {
+                display: flex !important;
+                z-index: 99999;
+                bottom: 100px;
+            }
+.icon_cta{position:relative}
+.icon_cta i {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 3;
+}
